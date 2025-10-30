@@ -1,4 +1,4 @@
-import { inngest } from "./client";
+import { inngest } from "../../../inngest/client.js";
 
 export const syncUserCreation = inngest.createFunction(
   { id: "sync-user-create" },
